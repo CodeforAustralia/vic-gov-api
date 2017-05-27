@@ -1,0 +1,19 @@
+{
+  "name": "vic-gov-api",
+  "version": "1.0.0",
+  "description": "Victorian Government Organisations API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeforAustralia/vic-gov-api.git"
+  },
+  "author": "Code for Australia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeforAustralia/vic-gov-api/issues"
+  },
+  "homepage": "https://github.com/CodeforAustralia/vic-gov-api#readme"
+}
