@@ -1,0 +1,23 @@
+OAAV:
+  name: Office of Aboriginal Affairs
+  budget: 100.6 million
+  minister:
+    name: Natalie Hutchins
+    website: http://www.nataliehutchins.com.au/
+    phone: 03 9449 1511
+    email: natalie.hutchins@parliament.vic.gov.au
+  website: http://www.vic.gov.au/aboriginalvictoria/about-aboriginal-victoria.html
+  email: Aboriginalaffairs@dpc.vic.gov.au
+  phone: 1800 762 003
+
+ACMI:
+  name: Australian Centre for the Moving Image
+  budget: 29.5 million
+  minister:
+    name: Martin Foley
+    website: http://www.martinfoley.com.au/
+    phone: 03 9646 7173
+    email: martin.foley@parliament.vic.gov.au
+  website: https://www.acmi.net.au/
+  email: education@acmi.org.au
+  phone: 03 8663 2200

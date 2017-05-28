@@ -19,9 +19,13 @@
   "dependencies": {
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
-    "graphql": "^0.10.1"
+    "fs": "0.0.1-security",
+    "graphql": "^0.10.1",
+    "js-yaml": "^3.8.4",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
   },
   "engines": {
-   "node": "6.10.3"
+    "node": "6.10.3"
   }
 }

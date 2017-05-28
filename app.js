@@ -2,17 +2,26 @@ var express = require('express');
 var graphqlHTTP = require('express-graphql');
 var { buildSchema } = require('graphql');
 
+// Load the YAML files into Javascript Objects
+var yaml = require('js-yaml')
+var fs = require('fs')
+var path = require('path')
+
+var orgs = yaml.safeLoad(fs.readFileSync(path.resolve('resources/orgs.yaml'), 'utf8'));
+
+console.log(orgs)
+
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
   type Query {
-    hello: String
+    org: String
   }
 `);
 
 // The root provides a resolver function for each API endpoint
 var root = {
-  hello: () => {
-    return 'Hello world!';
+  org: () => {
+    return orgs
   },
 };
 
