@@ -1,4 +1,5 @@
-OAAV:
+-
+  acronym: OAAV
   name: Office of Aboriginal Affairs
   budget: 100.6 million
   minister:
@@ -10,7 +11,9 @@ OAAV:
   email: Aboriginalaffairs@dpc.vic.gov.au
   phone: 1800 762 003
 
-ACMI:
+-
+  acronym: OAAV
+  ACMI:
   name: Australian Centre for the Moving Image
   budget: 29.5 million
   minister:

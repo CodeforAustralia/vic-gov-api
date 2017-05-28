@@ -9,18 +9,25 @@ var path = require('path')
 
 var orgs = yaml.safeLoad(fs.readFileSync(path.resolve('resources/orgs.yaml'), 'utf8'));
 
-console.log(orgs)
 
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
   type Query {
-    org: String
+    orgs: [Org]!
+  },
+  type Org {
+    name: String,
+    acronym: String,
+    budget: String,
+    website: String,
+    email: String,
+    phone: String,
   }
 `);
 
 // The root provides a resolver function for each API endpoint
 var root = {
-  org: () => {
+  orgs: () => {
     return orgs
   },
 };
